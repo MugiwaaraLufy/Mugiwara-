@@ -12,27 +12,22 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "❁ 𝗥𝗢𝗡𝗔𝗟𝗗 𝗕𝗢𝗧 ❁",
-	"prefix": "•",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
 	"adminBot": [
-       "100084606198768"
-],
-
+    "100093708792321",
+    "",
+    ""
+  ],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
-		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
+		"notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
 	},
-	"whiteListModeThread": {
-		"enable": false,
-		"whiteListThreadIds": [],
-		"notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
-	},
+	"nickNameBot": "𝗠𝘂𝗴𝗶𝘄𝗮𝗿𝗮-♣♠♦𝗝𝗼𝗸𝗲𝗿",
+	"prefix": "-",
 	"database": {
 		"type": "sqlite",
 		"uriMongodb": "",
@@ -40,18 +35,18 @@
 		"autoRefreshThreadInfoFirstTime": true,
 		"notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
 	},
-	"timeZone": "Asia/Ho_Chi_Minh",
+	"timeZone": "Africa/Lagos",
 	"credentials": {
 		"gmailAccount": {
-			"email": "vraihomme35@gmail.com",
-			"clientId": "320237096807-lq1auvdcmrnoqsrt17rl3c923nk5ro5k.apps.googleusercontent.com",
-			"clientSecret": "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",
-			"refreshToken": "1//04jBko6eZWAY2CgYIARAAGAQSNwF-L9Ir3zszUK-MqcLCVvS0fvC77TgRoSJMTlZtbHhiIRprbqvaJYtAjUFFQ0_cRn7AbYcm13c",
+			"email": "andylabaco@gmail.com",
+			"clientId": "96871167660-5js0qjdlpr2mcd331kv5obpifev5j69r.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//04qK_zxJkdK7RCgYIARAAGAQSNwF-L9IrZOdI4prCgpqvAoDEvn-HpuSugKxBTRNoGS37QwxfAWJUCehSKhdas26xOh-SjmdR4uw",
 			"apiKey": ""
 		},
 		"gRecaptcha": {
-			"siteKey": "6LcWrOwpAAAAANzN3TSvo9voMwHFfNnwayXhhCs0",
-			"secretKey": "6LcWrOwpAAAAAHCCZhQArJKvtN3BxfUx1xtAmHdW"
+			"siteKey": "6LfDe7QmAAAAAMdncmzO8RDLROsn_U-VPkuV_LzZ",
+			"secretKey": "6LfDe7QmAAAAAOyLAlcnK-YxCVWwzdjow-h5pNJg"
 		}
 	},
 	"dashBoard": {
@@ -118,9 +113,7 @@
 		"adminOnly": false,
 		"threadBanned": false,
 		"userBanned": false,
-		"needRoleToUseCmd": false,
-		"needRoleToUseCmdOnReply": false,
-		"needRoleToUseCmdOnReaction": false
+		"needRoleToUseCmd": false
 	},
 	"logEvents": {
 		"disableAll": false,
@@ -145,4 +138,4 @@
 		"autoReconnect": false,
 		"notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
 	}
-}
+	}
