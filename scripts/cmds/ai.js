@@ -60,9 +60,9 @@ module.exports = {
       const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
       message.reply(`
 
-\n══════𝐑𝐎𝐍𝐀𝐋𝐃══════
-\n🥏 ${response} 🪶\n
-══════𝐑𝐎𝐍𝐀𝐋𝐃══════`, messageID);
+\n══════♣♦𝗠𝗿 𝗝𝗼𝗸𝗲𝗿✦㊟卍══════
+\n🥏 ${response} 🪶🃏\n
+══════♣♦𝗠𝗿 𝗝𝗼𝗸𝗲𝗿✦㊟卍══════`, messageID);
     }
   }
 };
