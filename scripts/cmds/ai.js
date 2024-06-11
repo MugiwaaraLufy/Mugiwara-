@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
     { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
   ];
 
-  let response = "Salut , je suis l'intelligence artificielle créer par 𝗥𝗼𝗻𝗮𝗹𝗱 je suis là pour répondre à tes questions...(⁠◠⁠‿⁠◕⁠)";
+  let response = "Salut , je suis l'intelligence artificielle créer par ♣♦𝗠𝗿 𝗝𝗼𝗸𝗲𝗿✦㊟卍 je suis là pour répondre à tes questions...(⁠◠⁠‿⁠◕⁠)";
   let currentIndex = 0;
 
   for (let i = 0; i < services.length; i++) {
@@ -39,7 +39,7 @@ module.exports = {
     name: 'ai',
     author: 'Arn',
     role: 0,
-    category: 'ai',
+    category: 'ai','mugiwara',
     shortDescription: 'ai to ask anything',
   },
   onStart: async function ({ api, event, args }) {
@@ -50,8 +50,8 @@ module.exports = {
     }
 
     const { response, messageID } = await getAIResponse(input, event.senderID, event.messageID);
-    api.sendMessage(` \n══════𝐑𝐎𝐍𝐀𝐋𝐃══════\n🥏 ${response} 🪶\n
-══════𝐑𝐎𝐍𝐀𝐋𝐃══════`, event.threadID, messageID);
+    api.sendMessage(` \n══════𝗠𝗿 𝗝𝗼𝗸𝗲𝗿══════\n🥏 ${response} 🪶\n
+══════♣♦𝗝𝗼𝗸𝗲𝗿✦㊟卍══════`, event.threadID, messageID);
   },
   onChat: async function ({ event, message }) {
     const messageContent = event.body.trim().toLowerCase();
